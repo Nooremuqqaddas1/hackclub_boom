@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://pea7en4pkvq4"]
+
+[ext_resource type="Script" uid="uid://dtmdl0lmu108v" path="res://player.gd" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://dfgily645nnlh" path="res://Adobe Express - file.png" id="2_0xm2m"]
+
+[node name="main" type="Node2D" unique_id=1617289928]
+
+[node name="lira" type="CharacterBody2D" parent="." unique_id=2078219576]
+script = ExtResource("1_0xm2m")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=496103473]
+position = Vector2(170.67596, 229.83798)
+rotation = 0.0068482268
+scale = Vector2(0.25974283, 0.25316632)
+texture = ExtResource("2_0xm2m")
